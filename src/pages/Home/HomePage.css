@@ -1,0 +1,43 @@
+.HomePage {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomePage-title {
+  font-size: 13vw;
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+
+.HomePage-learn-more {
+  font-size: 3rem;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+  position: sticky;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.fa-chevron-down {
+  color: #f5f5f5;
+  padding: "3.5rem";
+  opacity: 0.5;
+}

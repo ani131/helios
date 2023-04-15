@@ -1,0 +1,46 @@
+.sources-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+.ref-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px 10px 0px;
+  text-align: center;
+  color: black;
+}
+
+.source {
+  background-color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}

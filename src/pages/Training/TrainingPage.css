@@ -1,0 +1,374 @@
+html {
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  margin: 0;
+}
+
+body {
+  overflow-y: visible;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.training-page {
+  background-image: url("../../img/SpaceStars.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.header h1 {
+  font-size: 11vh;
+  margin: 0;
+  padding: 20px 10px 0px 10px;
+  /* color: #fff; */
+}
+
+.header p {
+  font-size: 3vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5;
+  /* color: #fff; */
+}
+
+.container {
+  width: 600vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../../img/costs.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 5vw;
+  }
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 30px;
+}
+
+.plan {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.plan:hover {
+  background-color: #d8d8d8;
+  color: #000;
+}
+
+.plan h2 {
+  font-size: 4vh;
+  margin-top: 0;
+}
+
+.plan p {
+  font-size: 2vh;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.lastContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../../img/JourneyEarth.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.panel {
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+}
+
+.slide-title {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.slide-description {
+  font-size: 3vh;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #666;
+  text-align: center;
+}
+
+.red {
+  background-image: url("../../img/JourneyDoctor.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.orange {
+  background-image: url("../../img/JourneyVehicle.jpg");
+  background-size: last-child;
+  background-position: center;
+}
+
+.purple {
+  background-image: url("../../img/JourneySpace.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.blue {
+  background-color: #80dfff;
+}
+
+p {
+  box-shadow: "0 4px 10px rgba(0, 0, 0, 0.2)";
+}
+
+.table-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  border: 1px solid #ddd;
+}
+
+/* Style the header row */
+th {
+  background-color: #666;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:last-child {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+td:first-child,
+th:first-child {
+  text-align: left;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 600px) {
+  table {
+    font-size: 14px;
+  }
+  td,
+  th {
+    padding: 6px;
+  }
+  td:first-child,
+  th:first-child {
+    padding-left: 10px;
+  }
+  th:nth-child(2),
+  td:nth-child(2),
+  th:nth-child(3),
+  td:nth-child(3),
+  th:last-child,
+  td:last-child {
+    display: block;
+    width: 100%;
+  }
+  th:nth-child(2),
+  td:nth-child(2),
+  th:nth-child(3),
+  td:nth-child(3) {
+    text-align: center;
+  }
+  td:last-child,
+  th:last-child {
+    border-bottom: none;
+  }
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .header-costs h1 {
+    font-size: 24px;
+  }
+
+  .header-costs p {
+    font-size: 12px;
+  }
+}
+
+/* Style the header section */
+.header-costs {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-costs h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header-costs p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.costs {
+  background-image: url("../../img/costsLower.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slide-description {
+  flex: 1;
+  padding: 30px;
+  line-height: 130%;
+}
+@media (max-width: 768px) {
+  .slide-description {
+    line-height: normal;
+    padding: 10px;
+  }
+  .slide-title {
+    padding: 0px 10px;
+  }
+}
+
+.training-container {
+  display: flex;
+  padding-bottom: 6vh;
+}
+
+.journey-image {
+  flex: 1;
+  padding: 30px;
+  max-width: 500;
+  width: 40vh;
+  margin-left: auto;
+}
+
+.learn-more {
+  background: transparent;
+  /* height: 100vh; */
+  position: relative;
+}
+
+.learn-more::before {
+  animation: bounce 2s ease infinite;
+  bottom: 1.5rem;
+  color: #fff;
+  content: "╲╱";
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  top: 0;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-40%);
+  }
+}
+
+.button {
+  border-radius: 50px;
+  background: #010606;
+  white-space: nowrap;
+  padding: 14px 48px;
+  margin-bottom: 50%;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #f4a261;
+}
