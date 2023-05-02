@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/helios/static/css/main.36f2fb2b.css",
+    "main.js": "/helios/static/js/main.0125751c.js",
+    "static/media/space1.mp4": "/helios/static/media/space1.7f7675fe02a17701eeb7.mp4",
+    "static/media/costs.jpg": "/helios/static/media/costs.283bb132b5055242e09f.jpg",
+    "static/media/SpaceStars.jpg": "/helios/static/media/SpaceStars.05d01de19601a03d0a22.jpg",
+    "static/media/costsLower.jpg": "/helios/static/media/costsLower.1fa4ff3d07d549816c1d.jpg",
+    "static/media/JourneySpace.jpg": "/helios/static/media/JourneySpace.8e76eed24abf75fa588d.jpg",
+    "static/media/JourneyPlanes2.png": "/helios/static/media/JourneyPlanes2.b096f6078e1b401ba0a8.png",
+    "static/media/JourneyPlanes1.png": "/helios/static/media/JourneyPlanes1.54352966522f07be3e44.png",
+    "static/media/JourneyEarth.jpg": "/helios/static/media/JourneyEarth.99ca3950841ffae0f372.jpg",
+    "static/media/JourneyAstronaut.png": "/helios/static/media/JourneyAstronaut.2d7b0b44fa1683f022a6.png",
+    "static/media/JourneyPeople.png": "/helios/static/media/JourneyPeople.df15c05c8ce3ef5d38c9.png",
+    "static/media/JourneyDoctor.png": "/helios/static/media/JourneyDoctor.68a6bcfa467fb8ed9613.png",
+    "static/media/HomeInfo.jpg": "/helios/static/media/HomeInfo.ccb94fb05bee486e3edd.jpg",
+    "static/media/JourneyHealth.png": "/helios/static/media/JourneyHealth.8a8b63b37d9f7b1a14f9.png",
+    "static/media/home-mobile.jpg": "/helios/static/media/home-mobile.02ede8fdf5c89f5681f0.jpg",
+    "static/media/TSACopyrightChecklist.pdf": "/helios/static/media/TSACopyrightChecklist.814356efca8cf2b3e35a.pdf",
+    "static/media/TSAWorkLog.pdf": "/helios/static/media/TSAWorkLog.5c94dd32d3fc828aa83c.pdf",
+    "static/media/JourneyVehicle.jpg": "/helios/static/media/JourneyVehicle.406793c09764ff68ec12.jpg",
+    "static/media/helios.png": "/helios/static/media/helios.b8be704985548945bc40.png",
+    "index.html": "/helios/index.html",
+    "main.36f2fb2b.css.map": "/helios/static/css/main.36f2fb2b.css.map",
+    "main.0125751c.js.map": "/helios/static/js/main.0125751c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36f2fb2b.css",
+    "static/js/main.0125751c.js"
+  ]
+}
